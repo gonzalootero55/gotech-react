@@ -1,16 +1,64 @@
-# React + Vite
+# GoTech – TP Final Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada en React como trabajo final de la materia Frontend.  
+El proyecto simula un sitio de venta de accesorios tecnológicos, con navegación entre secciones, galería de productos, detalle de producto y formulario de contacto.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Despliegue
 
-## React Compiler
+- **Sitio en producción (Vercel):**  
+  👉 https://gotech-react.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Repositorio GitHub:**  
+  👉 https://github.com/gonzalootero55/gotech-react
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías y librerías utilizadas
+
+- **React**
+- **Vite**
+- **React Router DOM**
+- **CSS puro**
+- **Git & GitHub**
+- **Vercel** (deploy)
+
+---
+
+## 📄 Funcionalidades principales
+
+- Navegación entre páginas mediante **React Router DOM**
+- Página de inicio con información general
+- Página de productos con listado dinámico
+- **Detalle de producto utilizando parámetros de ruta (`useParams`)**
+- Galería de imágenes
+- Formulario de contacto con manejo de estado usando **useState**
+- Componentes reutilizables (Navbar, Footer, Card, etc.)
+
+---
+
+## 🧩 Estructura del proyecto
+
+- `components/` → Componentes reutilizables
+- `data/` → Información de productos
+- `assets/` → Imágenes y estilos CSS
+- `pages/` → Vistas principales de la aplicación
+- `App.jsx` → Configuración de rutas
+- `main.jsx` → Punto de entrada de la app
+
+---
+
+## ⚠️ Dificultades encontradas
+
+- Manejo de márgenes y layout global al trabajar con React y CSS
+- Ajustes de responsive en navbar y footer
+- Correcta organización de estilos globales y por componente
+- Integración del detalle de producto usando parámetros de ruta
+
+Estas dificultades fueron resueltas ajustando la estructura del layout y la importación correcta de estilos.
+
+---
+
+Proyecto realizado por **Gonzalo Otero**  
+Trabajo Final – Frontend
